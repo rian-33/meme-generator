@@ -1,1 +1,1 @@
-"# meme-generator" 
+# MemeForge`n`nBrowser-based meme editor built with React, TypeScript, and Vite.`n`n## Structure`n`n- `src/models`: domain types and entities`n- `src/views`: pages and reusable UI components`n- `src/controllers`: UI/application coordination`n- `src/services`: persistence and integrations`n- `src/routes`: application navigation`n- `src/styles`: design tokens and global styles`n`n## Next step`n`nAdd the Vite package configuration and implement the landing/dashboard flow.`n
