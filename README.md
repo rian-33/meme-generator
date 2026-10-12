@@ -1,1 +1,12 @@
-# MemeForge`n`nBrowser-based meme editor built with React, TypeScript, and Vite.`n`n## Structure`n`n- `src/models`: domain types and entities`n- `src/views`: pages and reusable UI components`n- `src/controllers`: UI/application coordination`n- `src/services`: persistence and integrations`n- `src/routes`: application navigation`n- `src/styles`: design tokens and global styles`n`n## Next step`n`nAdd the Vite package configuration and implement the landing/dashboard flow.`n
+# MemeForge
+
+Browser-based meme editor for images and video, built with React, TypeScript, and Vite and backed by Supabase.
+
+## Project structure
+
+- `frontend/`: browser application and UI
+- `backend/`: Supabase integration and backend domain logic
+- `PRD-MemeForge.md`: product requirements
+- `UI-Design-System-MemeForge.md`: visual design system
+
+The MVP uses Supabase for authentication, database, and storage. A custom API server can be added under `backend/` if server-only logic becomes necessary.
